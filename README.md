@@ -29,7 +29,7 @@ pandas, numpy, pyspark, matplotlib, seaborn
 ### Included files
 * Sparkify.ipynb: The jupyter notebook containing the exploratory data analysis, feature engineering and model development
 * mini_sparkify_event_data.json.zip: a subset (128MB) of the full dataset (12GB) used to explore with Spark before deploying cluster on the cloud
-* Discussion of the notebook is presented in this blog post
+* Discussion of the notebook is presented in this [blog post](https://medium.com/@milbajagic/customer-churn-analysis-using-spark-apache-9be34c3c0a84).
 
 ### Acknowledgements
 Sparkify dataset has been provided by [Udacity](https://www.udacity.com/).
