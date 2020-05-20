@@ -16,6 +16,12 @@ Since only a small part of the dataset is defined as "churn", this caused a clas
 The recall shows how many of the churn users have actually been recognized by the model. To avoid identifying too many users as churn users, 
 f1 score provides a mean of precision and recall. 
 
+## Summary of results
+Upon exploratory data analysis, and cleaning of data, following features were considered for model building: 
+auth, gender, level, location, method, status, userAgent, hour and churn. To prepare data for modeling, categorical features were 
+transformed using StringIndexer combined with OneHotEncoding. Upon testing LogisticRegression and RandomForestClassifier, it is hard to tell which model is better. They both performed equality well. This may be due to the small size of the data set used and to class imbalance. Hyperparameter tuning on a larger dataset in the cloud is necessary before selecting a model for successfully predicting user churn.
+
+
 ### Libraries used
 This project requires Python 3.x and the following libraries installed: 
 pandas, numpy, pyspark, matplotlib, seaborn
